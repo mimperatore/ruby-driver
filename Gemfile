@@ -2,6 +2,9 @@ source 'https://rubygems.org/'
 
 gemspec
 
+# Use my own version until https://github.com/iconara/ione/pull/8 is merged.
+gem 'ione', git: 'git@github.com:mimperatore/ione.git'
+
 gem 'rake'
 gem 'snappy'
 gem 'lz4-ruby'

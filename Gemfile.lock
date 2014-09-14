@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:mimperatore/ione.git
+  revision: 0f9b30cd36a40e0d318c06446065319b28be7725
+  specs:
+    ione (1.2.0.pre3)
+
 PATH
   remote: .
   specs:
@@ -61,7 +67,6 @@ GEM
       guard (>= 1.8.0)
       nanoc (>= 3.6.3)
     htmlbeautifier (0.0.9)
-    ione (1.2.0.pre3)
     jsmin (1.0.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -139,6 +144,7 @@ DEPENDENCIES
   guard
   guard-nanoc
   htmlbeautifier
+  ione!
   lz4-ruby
   nanoc
   nanoc-toolbox
